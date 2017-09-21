@@ -1,6 +1,6 @@
 {
   "name": "cordova-plugin-android-fullscreen",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "description": "Cordova plugin for launching an app at fullscreen",
   "main": "index.js",
   "dependencies": {},
