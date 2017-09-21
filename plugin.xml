@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<plugin xmlns="http://apache.org/cordova/ns/plugins/1.0"
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        id="cordova-plugin-android-fullscreen"
+        version="1.0.0">
+  <name>cordova-plugin-android-fullscreen</name>
+  <description>Cordova plugin for launching an app at fullscreen</description>
+  <author>Emil Bay</author>
+  <keywords></keywords>
+  <license>ISC</license>
+  <repo>git+https://github.com/emilbayes/cordova-plugin-android-fullscreen.git</repo>
+  <issue>https://github.com/emilbayes/cordova-plugin-android-fullscreen/issues</issue>
+  <platform name="android">
+    <config-file target="res/xml/config.xml" parent="/*">
+      <feature name="fullscreen" >
+        <param name="android-package" value="com.github.emilbayes.fullscreen.Fullscreen"/>
+        <param name="onload" value="true" />
+      </feature>
+    </config-file>
+
+    <edit-config target="AndroidManifest.xml"
+                 parent="/manifest/application/activity[@android:name='MainActivity']"
+                 mode="merge">
+      <activity android:theme="@android:style/Theme.DeviceDefault.NoActionBar" />
+    </edit-config>
+
+    <source-file src="src/com/github/emilbayes/fullscreen/Fullscreen.java" target-dir="src/com/github/emilbayes/fullscreen" />
+  </platform>
+</plugin>

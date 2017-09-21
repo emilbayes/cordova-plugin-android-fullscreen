@@ -1,0 +1,31 @@
+{
+  "name": "cordova-plugin-android-fullscreen",
+  "version": "0.0.0",
+  "description": "Cordova plugin for launching an app at fullscreen",
+  "main": "index.js",
+  "dependencies": {},
+  "devDependencies": {
+    "sync-cordova-xml": "^0.3.0"
+  },
+  "scripts": {},
+  "cordova": {
+    "id": "cordova-plugin-android-fullscreen",
+    "platforms": [
+      "android"
+    ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/emilbayes/cordova-plugin-android-fullscreen.git"
+  },
+  "keywords": [
+    "cordova",
+    "android"
+  ],
+  "author": "Emil Bay <github@tixz.dk>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/emilbayes/cordova-plugin-android-fullscreen/issues"
+  },
+  "homepage": "https://github.com/emilbayes/cordova-plugin-android-fullscreen#readme"
+}
