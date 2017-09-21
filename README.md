@@ -1,6 +1,6 @@
 # `cordova-plugin-android-fullscreen`
 
-[![Build Status](https://travis-ci.org/emilbayes/cordova-plugin-android-fullscreen.svg?branch=master)](https://travis-ci.org/emilbayes/ccordova-plugin-android-fullscreen)
+[![Build Status](https://travis-ci.org/emilbayes/cordova-plugin-android-fullscreen.svg?branch=master)](https://travis-ci.org/emilbayes/cordova-plugin-android-fullscreen)
 
 > Cordova plugin for launching an app at fullscreen
 
