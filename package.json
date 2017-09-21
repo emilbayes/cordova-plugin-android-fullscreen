@@ -7,7 +7,9 @@
   "devDependencies": {
     "sync-cordova-xml": "^0.3.0"
   },
-  "scripts": {},
+  "scripts": {
+    "version": "sync-cordova-xml package.json plugin.xml --output plugin.xml && git add plugin.xml"
+  },
   "cordova": {
     "id": "cordova-plugin-android-fullscreen",
     "platforms": [
